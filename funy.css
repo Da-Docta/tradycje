@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    color: #444;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+  }
+  
+  main {
+    display: flex;
+  }
+  
+  section {
+    width: 80%;
+    padding: 10px;
+  }
+  
+  section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  
+  video {
+    width: 20;
+    height: 240px;
+    margin-top: 10px;
+  }
+  
+  footer {
+    margin-top: auto;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+  }
