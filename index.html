@@ -4,13 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tradycje świąteczne</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Strona główna</a>
+      <a href="#">Tradycje świąteczne w polsce</a>
+      <a href="#">Kolendy</a>
+      <a href="#">Autorzy</a>
+    </div>
+
+
     <header>
       <h1>Tradycje Św.</h1>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span> 
     </header>
+
+
     <main>
       <section>
         <p>
@@ -42,34 +54,49 @@
                 <li>Trzeci dzień Świąt Bożego Narodzenia, czyli 27 grudnia, to dzień świętej Rodziny. W wielu domach w tym dniu organizuje się rodzinne spotkania, podczas których celebruje się więzi rodzinne i bliskość najbliższych.</li>
             </ul>
         </p>
-        <p id="text_music">
+        <br>
+        <br>
+                <p id="text_music">
           Najpopularniejsze kolędy, które są związane z tradycjami bożonarodzeniowymi są to:
         </p>
+      <div class="kolendy">
+        <div class="kolenda">
         <p>
           Dzisiaj w betlejem: <br>
           <iframe width="420" height="315"
           src="https://www.youtube.com/embed/MnQ4_10Te-o">
           </iframe>
         </p>
+      </div>
+        <div class="kolenda">
         <p>
-          Przybieżeli do betlejem: <br>
+          
+          Wśród nocnej ciszy: <br>
           <iframe width="420" height="315"
-          src=" https://www.youtube.com/embed/4PBkYm-Mpqk">
+          src=" https://www.youtube.com/embed/EC3YS1rXnUw">
           </iframe>
         </p>
+      </div>
+        <div class="kolenda">
         <p>
-          Wśród nocnej ciszy: <br>
+          Przybieżeli do betlejem:
+           <br>
           <iframe width="420" height="315"
           src="https://www.youtube.com/embed/pClIOPkxMUM">
           </iframe>
         </p>
+      </div>
+      </div>
       </section>
     </main>
     <footer>
-      Autorstwa
+      <h3>Autorstwa</h3>
+      <div>
       <p>Bartosza G</p>
       <p>Bartosza K</p>
       <p>Fabiana O</p>
+    </div>
     </footer>
+    <script src="sidebar.js"></script>
   </body>
 </html>
